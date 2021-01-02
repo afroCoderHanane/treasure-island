@@ -34,7 +34,7 @@ else:
   elif choice == 'a' or choice =='A':
     print("Thunder strike your plane, Game over") 
   else:
-    choice = input ("Where did you want to go, f for forest, m for mountain and s for sea")
+    choice = input ("Where did you want to go, f for forest, m for mountain and s for sea\n")
     if choice == 's' or choice =='S':
       print("You found the treasure")
     elif choice  == 'm' or choice == 'M':
